@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const AxiosInstance = axios.create({
   baseURL: 'http://localhost:5000', // Ganti dengan URL API yang sesuai
-  timeout: 1000,
+  timeout: 5000,
   headers: { 'Content-Type': 'application/json' },
 });
 

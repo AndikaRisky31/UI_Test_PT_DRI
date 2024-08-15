@@ -6,8 +6,8 @@ const DashboardLayout = () => {
   return (
     <div className="flex">
       <Sidebar />
-      <main className="flex-1 px-6 pt-6">
-        <Outlet />
+      <main className="flex-1 pt-6 px-6">
+        <Outlet /> {/* This renders the matched child route component */}
       </main>
     </div>
   );

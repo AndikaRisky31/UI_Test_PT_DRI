@@ -27,7 +27,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-56 h-screen bg-white border-r-2 border-neutral-300/40 flex flex-col">
+    <div className="w-56 h-svh bg-white border-r-2 border-neutral-300/40 flex flex-col">
         <div className="p-6 order-1 flex items-center gap-1">
             <svg width="18" height="25" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="path-1-inside-1_1_204" fill="white">
@@ -64,7 +64,7 @@ const Sidebar = () => {
         </div>
         <div className="w-full p-6 order-3 mt-auto border-t border-neutral-300/40 flex-col justify-center items-start gap-6 inline-flex">
             <div className="justify-start items-center gap-3 inline-flex">
-                <img className="w-9 h-9 relative rounded-3xl" src="https://via.placeholder.com/36x36" />
+                <img className="w-9 h-9 object-cover relative rounded-3xl" src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg" />
                 <div className="w-24 flex-col justify-start items-start inline-flex">
                 <div className="text-neutral-900 text-sm font-semibold font-quicksand leading-tight">Savannah N</div>
                 <div className="self-stretch text-neutral-400 text-xs font-normal font-['Satoshi'] leading-tight tracking-tight">Food Quality Manager</div>
