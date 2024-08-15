@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# UI PT Daya Rekadigital Indonesia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ini adalah aplikasi antarmuka pengguna (UI) untuk sistem manajemen pelanggan dan pesanan menggunakan React. Aplikasi ini terhubung dengan API untuk mengelola data pelanggan, produk, dan pesanan.
 
-## Available Scripts
+## Daftar Isi
 
-In the project directory, you can run:
+1. [Prasyarat](#prasyarat)
+2. [Instalasi](#instalasi)
+3. [Menjalankan Aplikasi](#menjalankan-aplikasi)
+4. [Fitur](#fitur)
+5. [Contributing](#contributing)
+6. [Lisensi](#lisensi)
 
-### `npm start`
+## Prasyarat
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (versi 20.x atau lebih baru)
+- npm (versi 10.2 atau lebih baru)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalasi
 
-### `npm test`
+1. **Clone repositori**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/AndikaRisky31/UI_Test_PT_DRI.git
+    cd UI_Test_PT_DRI
+    ```
 
-### `npm run build`
+2. **Instal dependensi**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Menjalankan Aplikasi
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Jalankan aplikasi**
 
-### `npm run eject`
+    Untuk memulai aplikasi, jalankan perintah berikut:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Aplikasi akan berjalan di `http://localhost:3000` secara default.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Jalankan pengujian**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Jika Anda ingin menjalankan pengujian, jalankan perintah berikut:
 
-## Learn More
+    ```bash
+    npm test
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Fitur
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Aplikasi ini mencakup fitur-fitur berikut:
 
-### Code Splitting
+- **Menambahkan Data Customer Baru:** Menyediakan antarmuka untuk menambahkan customer baru ke dalam sistem.
+- **Melihat Detail Data Customer:** Menampilkan detail lengkap dari customer, termasuk semua produk yang pernah dipesan dan total transaksi.
+- **Menambah dan Mengurangi Kuantitas Produk yang Telah Dipesan:** Memungkinkan pengguna untuk menambah atau mengurangi kuantitas produk pada pesanan customer.
+- **Menghapus Data Customer:** Menghapus data customer dari sistem (soft delete).
+- **Mencari Customer:** Menyediakan antarmuka pencarian untuk customer berdasarkan nama dan level, dengan dukungan pagination dan sorting.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Dokumentasi API
 
-### Analyzing the Bundle Size
+Dokumentasi API terkait dapat ditemukan di repositori [API PT Daya Rekadigital Indonesia](https://github.com/AndikaRisky31/api_test_PT_DRI).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Jika Anda ingin berkontribusi pada proyek ini, silakan fork repositori dan buat pull request dengan perubahan Anda. Ikuti panduan konvensi kode dan pastikan untuk menambahkan pengujian jika diperlukan.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Lisensi
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
